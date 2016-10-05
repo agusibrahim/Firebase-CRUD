@@ -8,3 +8,4 @@ App demo cara memakai fungsi Create, Read, Update, dan Delete pada [Firebase](ht
 Atur dengan URL Firebase punyamu, atau gunakan yang ada untuk sekedar demo.
 Disarankan menggunakan Firebase lama, bukan firebase.google.com
 
+## NO GRADLE DEPENDENCY, JAR INCLUDED
