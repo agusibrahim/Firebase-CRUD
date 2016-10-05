@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Nama"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/form_nama"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Alamat"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPostalAddress"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/form_alamat"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Jenis Kelamin"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/form_gender">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Laki Laki"
+			android:checked="true"
+			android:id="@+id/form_gender_male"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Perempuan"
+			android:id="@+id/form_gender_female"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+
